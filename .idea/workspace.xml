@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab822c1e-719f-4d09-ad20-8dd067991189" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity-typegen.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/lib/live.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/lib/query.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/schemaTypes/author.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/schemaTypes/startup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HeroHighlight.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HeroHighlight.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartupCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-    </list>
+    <list default="true" id="ab822c1e-719f-4d09-ad20-8dd067991189" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +73,7 @@
       <workItem from="1734418578217" duration="9336000" />
       <workItem from="1734565056027" duration="2561000" />
       <workItem from="1734569633290" duration="255000" />
+      <workItem from="1734570078799" duration="304000" />
     </task>
     <servers />
   </component>
