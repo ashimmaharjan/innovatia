@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { auth, signOut, signIn } from "@/auth";
 import { VscLightbulbSparkle } from "react-icons/vsc";
+import Lottie from "lottie-react";
 
 const Navbar = async () => {
   const session = await auth();

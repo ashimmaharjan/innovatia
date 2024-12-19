@@ -120,11 +120,11 @@
 
   /* searchform */
   .search-form {
-    @apply max-w-3xl w-full min-h-[80px] bg-white border-[5px] border-violet-200 rounded-[80px] text-[24px] mt-12 px-5 flex flex-row items-center gap-5 mx-auto;
+    @apply max-w-3xl w-full min-h-[80px] bg-white border-[5px] border-violet-300 rounded-[80px] text-[24px] mt-12 px-5 flex flex-row items-center gap-5 mx-auto;
   }
 
   .search-input {
-    @apply flex-1 font-bold placeholder:font-semibold placeholder:text-black-100 w-full h-auto outline-none;
+    @apply flex-1 font-bold placeholder:font-semibold placeholder:text-gray-600 w-full h-auto outline-none;
   }
 
   .search-btn {
