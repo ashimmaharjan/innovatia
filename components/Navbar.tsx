@@ -1,18 +1,18 @@
 import Link from "next/link";
 import React from "react";
-import { auth, signOut, signIn } from "@/auth";
-import { VscLightbulbSparkle } from "react-icons/vsc";
-import Lottie from "lottie-react";
+import { auth, signIn, signOut } from "@/auth";
+import BulbAnimation from "@/components/BulbAnimation";
 
 const Navbar = async () => {
   const session = await auth();
+
   return (
     <div className="px-5 py-3 bg-black shadow-sm font-work-sans">
       <nav className="flex justify-between items-center">
-        <Link href="/" className="text-white flex items-center">
-          <VscLightbulbSparkle size={40} />
-          <span className="ml-1 text-3xl uppercase font-work-sans font-semibold">
-            Innovatia
+        <Link href="/" className="text-white flex">
+          <BulbAnimation />
+          <span className="text-3xl -ml-[6px] mt-1.5 font-work-sans font-semibold">
+            nnovatia
           </span>
         </Link>
 
@@ -40,7 +40,7 @@ const Navbar = async () => {
             </>
           ) : (
             <form
-              onClick={async () => {
+              action={async () => {
                 "use server";
                 await signIn("github");
               }}
