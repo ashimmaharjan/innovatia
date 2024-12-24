@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab822c1e-719f-4d09-ad20-8dd067991189" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/user/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UserStartups.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartupCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +95,7 @@
       <workItem from="1734570078799" duration="9547000" />
       <workItem from="1734589166061" duration="9164000" />
       <workItem from="1734947883544" duration="5962000" />
+      <workItem from="1735075852305" duration="4007000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import { auth, signIn, signOut } from "@/auth";
 import BulbAnimation from "@/components/BulbAnimation";
+import { BadgePlus, LogOut } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Navbar = async () => {
   const session = await auth();
@@ -20,7 +22,8 @@ const Navbar = async () => {
           {session && session?.user ? (
             <>
               <Link href="/startup/create">
-                <span>Create</span>
+                <span className="max-sm:hidden">Create</span>
+                <BadgePlus className="size-8 sm:hidden text-gray-50" />
               </Link>
 
               <form
@@ -30,12 +33,19 @@ const Navbar = async () => {
                 }}
               >
                 <button type="submit">
-                  <span>Sign Out</span>
+                  <span className="max-sm:hidden">Sign Out</span>
+                  <LogOut className="size-7 mt-1.5 sm:hidden text-red-500" />
                 </button>
               </form>
 
               <Link href={`/user/${session?.id}`}>
-                <span>{session?.user?.name}</span>
+                <Avatar className="size-10 border border-white">
+                  <AvatarImage
+                    src={session?.user?.image || ""}
+                    alt={session?.user?.name || ""}
+                  />
+                  <AvatarFallback>AV</AvatarFallback>
+                </Avatar>
               </Link>
             </>
           ) : (
