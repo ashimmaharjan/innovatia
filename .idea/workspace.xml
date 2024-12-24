@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab822c1e-719f-4d09-ad20-8dd067991189" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(root)/startup/create/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/BulbAnimation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/StartupForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/validation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next-auth.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/View.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/View.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +91,7 @@
       <workItem from="1734569633290" duration="255000" />
       <workItem from="1734570078799" duration="9547000" />
       <workItem from="1734589166061" duration="9164000" />
-      <workItem from="1734947883544" duration="3281000" />
+      <workItem from="1734947883544" duration="5962000" />
     </task>
     <servers />
   </component>
