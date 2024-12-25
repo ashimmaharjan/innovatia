@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { auth, signIn, signOut } from "@/auth";
 import BulbAnimation from "@/components/BulbAnimation";
-import { BadgePlus, LogOut } from "lucide-react";
+import { BadgePlus, Github, LogOut } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Navbar = async () => {
@@ -18,12 +18,15 @@ const Navbar = async () => {
           </span>
         </Link>
 
-        <div className="flex items-center gap-5 text-gray-300 text-lg">
+        <div className="flex items-center gap-4 md:gap-5 text-gray-300 text-lg">
           {session && session?.user ? (
             <>
-              <Link href="/startup/create">
+              <Link
+                href="/startup/create"
+                className="hover:text-[#ff9167] transition-all duration-300 ease-in-out"
+              >
                 <span className="max-sm:hidden">Create</span>
-                <BadgePlus className="size-8 sm:hidden text-gray-50" />
+                <BadgePlus className="size-8 sm:hidden text-gray-300" />
               </Link>
 
               <form
@@ -32,9 +35,12 @@ const Navbar = async () => {
                   await signOut({ redirectTo: "/" });
                 }}
               >
-                <button type="submit">
-                  <span className="max-sm:hidden">Sign Out</span>
-                  <LogOut className="size-7 mt-1.5 sm:hidden text-red-500" />
+                <button
+                  type="submit"
+                  className="hover:text-[#ff9167] transition-all duration-300 ease-in-out"
+                >
+                  <span className="max-sm:hidden">Logout</span>
+                  <LogOut className="size-7 mt-2 sm:hidden text-red-600" />
                 </button>
               </form>
 
@@ -55,8 +61,12 @@ const Navbar = async () => {
                 await signIn("github");
               }}
             >
-              <button type="submit">
-                <span>Sign in</span>
+              <button
+                type="submit"
+                className="flex items-center gap-1 border px-2.5 py-1.5 border-white hover:bg-white hover:text-gray-800 transition-all duration-300 ease-in-out"
+              >
+                <Github className="size-5" />
+                <span>Login</span>
               </button>
             </form>
           )}
