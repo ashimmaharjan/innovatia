@@ -49,8 +49,8 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
           className="rounded-full drop-shadow-lg w-[48px] h-[48px] overflow-hidden"
         >
           <Image
-            src={author?.image}
-            alt={author?.name}
+            src={author?.image || "https://placehold.co/48x48"}
+            alt={author?.name || "Author"}
             width={48}
             height={48}
             className="rounded-full"
